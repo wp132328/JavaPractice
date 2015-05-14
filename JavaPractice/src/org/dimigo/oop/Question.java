@@ -52,6 +52,8 @@ public class Question {
 		} else {
 			System.out.println("틀렸습니다!! ㅠ");
 		}
+		
+		scanner.close();
 
 	}
 
