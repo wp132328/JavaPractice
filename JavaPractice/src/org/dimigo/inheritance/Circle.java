@@ -31,5 +31,10 @@ public class Circle extends Figure {
 	protected double calcArea() {
 		return (radius*radius)*3.14;
 	}
+	
+	protected void printCenter() {
+		System.out.print("원 ");
+		super.printCenter();
+	}
 
 }

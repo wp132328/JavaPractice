@@ -41,5 +41,7 @@ public class Figure {
 		centerX += x;
 		centerY += y;
 	}
+	
+	
 
 }
