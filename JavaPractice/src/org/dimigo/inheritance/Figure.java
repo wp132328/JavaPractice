@@ -32,5 +32,14 @@ public class Figure {
 	protected double calcArea() {
 		return centerX*centerY;
 	}
+	
+	protected void printCenter() {
+		System.out.println("중심좌표 : (" + centerX + ", " + centerY + ")");
+	}
+	
+	protected void moveFigure(int x, int y) {
+		centerX += x;
+		centerY += y;
+	}
 
 }
